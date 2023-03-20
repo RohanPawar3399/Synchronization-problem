@@ -55,7 +55,7 @@ void* agnt(void*)
 {
 	while(1)
 	{
-		
+		srand(time(0));
 		int rnd;
 		rnd=(rand()%3)+1;
 		if(rnd==1)
