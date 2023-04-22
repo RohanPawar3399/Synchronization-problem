@@ -53,9 +53,10 @@ bool is_match = false;
 
 void* agnt(void*)
 {
+	srand(time(0));
 	while(1)
 	{
-		srand(time(0));
+		
 		int rnd;
 		rnd=(rand()%3)+1;
 		if(rnd==1)
